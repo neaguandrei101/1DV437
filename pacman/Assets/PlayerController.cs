@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-        //anim.SetFloat("currentSpeed", rb2d.velocity.magnitude);
+        anim.SetBool("isMoving", rb2d.velocity.magnitude>0);
 		if (Input.GetAxis("Horizontal") < 0)
         {
             direction = Vector2.left;
