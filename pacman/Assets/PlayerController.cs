@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour {
 
     //Settings
     public float speed = 1.0f;//how fast PacMan can travel
+
+    public int score = 0;
+
+    public Text scoreText;
 
     //Processing variables
     private Vector2 direction;
@@ -48,5 +53,10 @@ public class PlayerController : MonoBehaviour {
         {
             transform.position = new Vector2(transform.position.x, Mathf.Round(transform.position.y));
         }
+    }
+
+    public void addPoints(int points) {
+        score += points;
+        scoreText.text = ""+score;
     }
 }
