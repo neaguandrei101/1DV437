@@ -8,7 +8,7 @@ public class GhostController : MonoBehaviour {
     private CircleCollider2D cc2d;
 
     public float speed = 1.0f;
-    public Vector2 direction = Vector2.up;
+    public Vector2 direction;
 
     // Start is called before the first frame update
     void Start() {
@@ -18,6 +18,13 @@ public class GhostController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
+        //rotate
+        foreach (Transform t in GetComponentsInChildren<Transform>()) {
+            if (t != transform) {
+                t.up = direction;
+            }
+        }
+        //move    
         rb2d.velocity = direction * speed;
         if (rb2d.velocity.x == 0) {
             transform.position = new Vector2(Mathf.Round(transform.position.x), transform.position.y);
