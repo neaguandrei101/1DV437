@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 8350628}
   m_Layer: 0
   m_Name: level_straight (21)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 15373108}
   m_Layer: 0
   m_Name: level_straight (79)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 22477042}
   m_Layer: 0
   m_Name: level_endcap (14)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -460,7 +460,7 @@ GameObject:
   - component: {fileID: 35564163}
   m_Layer: 0
   m_Name: level_junction_2way (11)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -595,7 +595,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 41513039}
   m_Layer: 0
   m_Name: level_straight (10)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 44231417}
   m_Layer: 0
   m_Name: level_endcap (32)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -876,7 +876,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -959,8 +959,87 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &69535138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Name
+      value: ghost_pink
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380547, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380547, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.81452084
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 062b26cc59b574a60af4b979259190a2, type: 3}
 --- !u!1 &81476458
 GameObject:
   m_ObjectHideFlags: 0
@@ -974,7 +1053,7 @@ GameObject:
   - component: {fileID: 81476461}
   m_Layer: 0
   m_Name: level_straight (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1168,7 +1247,7 @@ RectTransform:
   - {fileID: 340552953}
   - {fileID: 440501848}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1225,7 +1304,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -1257,7 +1336,7 @@ GameObject:
   - component: {fileID: 91954361}
   m_Layer: 0
   m_Name: level_straight (60)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1452,7 +1531,7 @@ GameObject:
   - component: {fileID: 108664880}
   m_Layer: 0
   m_Name: level_straight (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1560,7 +1639,7 @@ GameObject:
   - component: {fileID: 110310599}
   m_Layer: 0
   m_Name: level_straight (27)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1705,7 +1784,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -1737,7 +1816,7 @@ GameObject:
   - component: {fileID: 120667563}
   m_Layer: 0
   m_Name: level_straight (76)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1882,7 +1961,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 120
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -1926,7 +2005,7 @@ GameObject:
   - component: {fileID: 129714560}
   m_Layer: 0
   m_Name: level_straight (95)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2071,7 +2150,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 126
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -2103,7 +2182,7 @@ GameObject:
   - component: {fileID: 132829453}
   m_Layer: 0
   m_Name: level_straight (52)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2211,7 +2290,7 @@ GameObject:
   - component: {fileID: 134725707}
   m_Layer: 0
   m_Name: level_endcap (25)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2490,7 +2569,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 134
+      value: 132
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -2522,7 +2601,7 @@ GameObject:
   - component: {fileID: 170126597}
   m_Layer: 0
   m_Name: level_straight (40)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2630,7 +2709,7 @@ GameObject:
   - component: {fileID: 171318759}
   m_Layer: 0
   m_Name: level_endcap (22)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2728,7 +2807,7 @@ GameObject:
   - component: {fileID: 172669409}
   m_Layer: 0
   m_Name: level_straight (105)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2873,7 +2952,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -2905,7 +2984,7 @@ GameObject:
   - component: {fileID: 179537490}
   m_Layer: 0
   m_Name: level_junction_2way (7)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3040,7 +3119,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3109,7 +3188,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3141,7 +3220,7 @@ GameObject:
   - component: {fileID: 186496067}
   m_Layer: 0
   m_Name: level_endcap (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3276,7 +3355,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3308,7 +3387,7 @@ GameObject:
   - component: {fileID: 191818939}
   m_Layer: 0
   m_Name: level_straight (8)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3416,7 +3495,7 @@ GameObject:
   - component: {fileID: 193550554}
   m_Layer: 0
   m_Name: level_straight (25)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3524,7 +3603,7 @@ GameObject:
   - component: {fileID: 196245042}
   m_Layer: 0
   m_Name: level_straight (97)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3675,7 +3754,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3744,7 +3823,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3782,7 +3861,7 @@ GameObject:
   - component: {fileID: 226764174}
   m_Layer: 0
   m_Name: level_junction_3way (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3927,7 +4006,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 133
+      value: 131
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -3959,7 +4038,7 @@ GameObject:
   - component: {fileID: 234754513}
   m_Layer: 0
   m_Name: level_straight (42)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4136,7 +4215,7 @@ GameObject:
   - component: {fileID: 238368340}
   m_Layer: 0
   m_Name: level_straight (37)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4287,7 +4366,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -4362,7 +4441,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -4394,7 +4473,7 @@ GameObject:
   - component: {fileID: 264001304}
   m_Layer: 0
   m_Name: level_straight (98)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4502,7 +4581,7 @@ GameObject:
   - component: {fileID: 264434114}
   m_Layer: 0
   m_Name: level_straight (19)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4616,7 +4695,7 @@ GameObject:
   - component: {fileID: 276138846}
   m_Layer: 0
   m_Name: level_junction_3way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4736,7 +4815,7 @@ GameObject:
   - component: {fileID: 286446021}
   m_Layer: 0
   m_Name: level_straight (4)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4874,7 +4953,7 @@ GameObject:
   - component: {fileID: 312586614}
   m_Layer: 0
   m_Name: level_straight (39)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4982,7 +5061,7 @@ GameObject:
   - component: {fileID: 317817216}
   m_Layer: 0
   m_Name: level_straight (3)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5127,7 +5206,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -5159,7 +5238,7 @@ GameObject:
   - component: {fileID: 334022102}
   m_Layer: 0
   m_Name: level_straight (36)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5507,7 +5586,7 @@ GameObject:
   - component: {fileID: 338094142}
   m_Layer: 0
   m_Name: level_straight (90)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5693,7 +5772,7 @@ GameObject:
   - component: {fileID: 364998436}
   m_Layer: 0
   m_Name: level_endcap (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5791,7 +5870,7 @@ GameObject:
   - component: {fileID: 365219357}
   m_Layer: 0
   m_Name: level_endcap (33)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5889,7 +5968,7 @@ GameObject:
   - component: {fileID: 372288192}
   m_Layer: 0
   m_Name: level_straight (61)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6058,7 +6137,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -6090,7 +6169,7 @@ GameObject:
   - component: {fileID: 401660925}
   m_Layer: 0
   m_Name: level_junction_3way (6)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6235,7 +6314,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -6267,7 +6346,7 @@ GameObject:
   - component: {fileID: 404766309}
   m_Layer: 0
   m_Name: level_straight (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6412,7 +6491,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -6481,7 +6560,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -6513,7 +6592,7 @@ GameObject:
   - component: {fileID: 409277729}
   m_Layer: 0
   m_Name: level_endcap (38)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6611,7 +6690,7 @@ GameObject:
   - component: {fileID: 415799095}
   m_Layer: 0
   m_Name: level_straight (83)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6719,7 +6798,7 @@ GameObject:
   - component: {fileID: 421673655}
   m_Layer: 0
   m_Name: level_straight (89)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6833,7 +6912,7 @@ GameObject:
   - component: {fileID: 422709316}
   m_Layer: 0
   m_Name: level_endcap (39)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7000,7 +7079,7 @@ GameObject:
   - component: {fileID: 426503506}
   m_Layer: 0
   m_Name: level_straight (9)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7145,7 +7224,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -7177,7 +7256,7 @@ GameObject:
   - component: {fileID: 433379873}
   m_Layer: 0
   m_Name: level_straight (115)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7400,7 +7479,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 142
+      value: 141
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -7432,7 +7511,7 @@ GameObject:
   - component: {fileID: 443865983}
   m_Layer: 0
   m_Name: level_straight (29)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7577,7 +7656,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -7609,7 +7688,7 @@ GameObject:
   - component: {fileID: 450134023}
   m_Layer: 0
   m_Name: level_straight (33)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7760,7 +7839,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -7829,7 +7908,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -7861,7 +7940,7 @@ GameObject:
   - component: {fileID: 462889553}
   m_Layer: 0
   m_Name: level_straight (114)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7975,7 +8054,7 @@ GameObject:
   - component: {fileID: 467271782}
   m_Layer: 0
   m_Name: level_endcap (35)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8110,7 +8189,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -8142,7 +8221,7 @@ GameObject:
   - component: {fileID: 478951918}
   m_Layer: 0
   m_Name: level_straight (46)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8268,7 +8347,7 @@ GameObject:
   - component: {fileID: 485164070}
   m_Layer: 0
   m_Name: level_endcap (40)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8366,7 +8445,7 @@ GameObject:
   - component: {fileID: 493013943}
   m_Layer: 0
   m_Name: level_straight (31)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8523,7 +8602,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -8592,7 +8671,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -8624,7 +8703,7 @@ GameObject:
   - component: {fileID: 521752652}
   m_Layer: 0
   m_Name: level_straight (80)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8719,6 +8798,80 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &531766370
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Name
+      value: ghost_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380547, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.47070256
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 062b26cc59b574a60af4b979259190a2, type: 3}
 --- !u!4 &534041051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
@@ -8738,7 +8891,7 @@ GameObject:
   - component: {fileID: 536995724}
   m_Layer: 0
   m_Name: level_endcap (23)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8873,7 +9026,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -8960,7 +9113,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -8992,7 +9145,7 @@ GameObject:
   - component: {fileID: 577224742}
   m_Layer: 0
   m_Name: level_straight (43)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9137,7 +9290,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -9206,7 +9359,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -9275,7 +9428,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -9313,7 +9466,7 @@ GameObject:
   - component: {fileID: 590151268}
   m_Layer: 0
   m_Name: level_straight (41)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9458,7 +9611,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -9527,7 +9680,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -9559,7 +9712,7 @@ GameObject:
   - component: {fileID: 615898357}
   m_Layer: 0
   m_Name: level_endcap (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9657,7 +9810,7 @@ GameObject:
   - component: {fileID: 622881655}
   m_Layer: 0
   m_Name: level_junction_2way (9)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9755,7 +9908,7 @@ GameObject:
   - component: {fileID: 629773087}
   m_Layer: 0
   m_Name: level_junction_2way (10)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9853,7 +10006,7 @@ GameObject:
   - component: {fileID: 632433091}
   m_Layer: 0
   m_Name: level_endcap (8)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9951,7 +10104,7 @@ GameObject:
   - component: {fileID: 636319862}
   m_Layer: 0
   m_Name: level_endcap (17)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10042,6 +10195,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 403102831}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &640632480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 640632481}
+  m_Layer: 0
+  m_Name: teleport_pad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &640632481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640632480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2274309, y: 4.930661, z: -7.7428436}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &643454520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10092,7 +10275,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10161,7 +10344,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10193,7 +10376,7 @@ GameObject:
   - component: {fileID: 650361449}
   m_Layer: 0
   m_Name: level_endcap (21)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10429,7 +10612,7 @@ GameObject:
   - component: {fileID: 665657302}
   m_Layer: 0
   m_Name: level_junction_2way (9)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10564,7 +10747,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10633,7 +10816,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10702,7 +10885,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10771,7 +10954,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -10803,7 +10986,7 @@ GameObject:
   - component: {fileID: 690021700}
   m_Layer: 0
   m_Name: level_junction_3way (3)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10911,7 +11094,7 @@ GameObject:
   - component: {fileID: 690841872}
   m_Layer: 0
   m_Name: level_straight (12)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11056,7 +11239,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -11131,7 +11314,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -11206,7 +11389,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 123
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -11238,7 +11421,7 @@ GameObject:
   - component: {fileID: 707189842}
   m_Layer: 0
   m_Name: level_straight (107)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11346,7 +11529,7 @@ GameObject:
   - component: {fileID: 709372202}
   m_Layer: 0
   m_Name: level_straight (20)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11491,7 +11674,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -11523,7 +11706,7 @@ GameObject:
   - component: {fileID: 715234375}
   m_Layer: 0
   m_Name: level_straight (70)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11631,7 +11814,7 @@ GameObject:
   - component: {fileID: 716537311}
   m_Layer: 0
   m_Name: level_endcap (37)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11729,7 +11912,7 @@ GameObject:
   - component: {fileID: 722024831}
   m_Layer: 0
   m_Name: level_straight (74)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11874,7 +12057,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -11909,7 +12092,7 @@ GameObject:
   m_Component:
   - component: {fileID: 728988536}
   m_Layer: 0
-  m_Name: pills
+  m_Name: pills_object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12073,7 +12256,7 @@ Transform:
   - {fileID: 787367790}
   - {fileID: 2086981453}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &732069771
 GameObject:
@@ -12088,7 +12271,7 @@ GameObject:
   - component: {fileID: 732069774}
   m_Layer: 0
   m_Name: level_straight (26)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12239,7 +12422,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 121
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -12320,7 +12503,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 141
+      value: 139
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -12352,7 +12535,7 @@ GameObject:
   - component: {fileID: 762967581}
   m_Layer: 0
   m_Name: level_endcap (14)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12450,7 +12633,7 @@ GameObject:
   - component: {fileID: 770113477}
   m_Layer: 0
   m_Name: level_junction_2way (8)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12690,7 +12873,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 127
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -12722,7 +12905,7 @@ GameObject:
   - component: {fileID: 797116288}
   m_Layer: 0
   m_Name: level_endcap (3)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12820,7 +13003,7 @@ GameObject:
   - component: {fileID: 800676861}
   m_Layer: 0
   m_Name: level_straight (28)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12928,7 +13111,7 @@ GameObject:
   - component: {fileID: 805009971}
   m_Layer: 0
   m_Name: level_straight (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13042,7 +13225,7 @@ GameObject:
   - component: {fileID: 808574988}
   m_Layer: 0
   m_Name: level_endcap (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13146,7 +13329,7 @@ GameObject:
   - component: {fileID: 812922611}
   m_Layer: 0
   m_Name: level_straight (55)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13254,7 +13437,7 @@ GameObject:
   - component: {fileID: 818318921}
   m_Layer: 0
   m_Name: level_straight (101)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13362,7 +13545,7 @@ GameObject:
   - component: {fileID: 821326208}
   m_Layer: 0
   m_Name: level_straight (58)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13476,7 +13659,7 @@ GameObject:
   - component: {fileID: 824012291}
   m_Layer: 0
   m_Name: level_straight (11)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13621,7 +13804,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -13653,7 +13836,7 @@ GameObject:
   - component: {fileID: 837237341}
   m_Layer: 0
   m_Name: level_straight (102)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13804,7 +13987,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -13836,7 +14019,7 @@ GameObject:
   - component: {fileID: 848057637}
   m_Layer: 0
   m_Name: level_straight (6)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13987,7 +14170,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14056,7 +14239,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14125,7 +14308,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 125
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14157,7 +14340,7 @@ GameObject:
   - component: {fileID: 860960066}
   m_Layer: 0
   m_Name: level_endcap (16)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14292,7 +14475,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14361,7 +14544,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14399,7 +14582,7 @@ GameObject:
   - component: {fileID: 876761103}
   m_Layer: 0
   m_Name: level_straight (22)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14544,7 +14727,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14582,7 +14765,7 @@ GameObject:
   - component: {fileID: 889015550}
   m_Layer: 0
   m_Name: level_straight (73)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14739,7 +14922,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14808,7 +14991,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14877,7 +15060,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -14909,7 +15092,7 @@ GameObject:
   - component: {fileID: 907901656}
   m_Layer: 0
   m_Name: level_junction_2way (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15013,7 +15196,7 @@ GameObject:
   - component: {fileID: 914478858}
   m_Layer: 0
   m_Name: level_straight (69)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15158,7 +15341,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -15196,7 +15379,7 @@ GameObject:
   - component: {fileID: 939417130}
   m_Layer: 0
   m_Name: level_endcap (19)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15294,7 +15477,7 @@ GameObject:
   - component: {fileID: 940242471}
   m_Layer: 0
   m_Name: level_endcap (11)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15392,7 +15575,7 @@ GameObject:
   - component: {fileID: 941867041}
   m_Layer: 0
   m_Name: level_straight (62)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15537,7 +15720,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -15606,7 +15789,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -15638,7 +15821,7 @@ GameObject:
   - component: {fileID: 971086490}
   m_Layer: 0
   m_Name: level_straight (32)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15746,7 +15929,7 @@ GameObject:
   - component: {fileID: 973589255}
   m_Layer: 0
   m_Name: level_straight (49)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15903,7 +16086,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -15978,7 +16161,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -16047,7 +16230,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -16116,7 +16299,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 131
+      value: 129
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -16148,7 +16331,7 @@ GameObject:
   - component: {fileID: 1011431636}
   m_Layer: 0
   m_Name: level_straight (34)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16256,7 +16439,7 @@ GameObject:
   - component: {fileID: 1017486378}
   m_Layer: 0
   m_Name: level_straight (56)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16376,7 +16559,7 @@ GameObject:
   - component: {fileID: 1029511038}
   m_Layer: 0
   m_Name: level_junction_2way (3)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16480,7 +16663,7 @@ GameObject:
   - component: {fileID: 1041513553}
   m_Layer: 0
   m_Name: level_straight (75)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16626,7 +16809,7 @@ PrefabInstance:
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
       propertyPath: m_RootOrder
-      value: 141
+      value: 136
       objectReference: {fileID: 0}
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
@@ -16712,7 +16895,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -16750,7 +16933,7 @@ GameObject:
   - component: {fileID: 1059720527}
   m_Layer: 0
   m_Name: level_endcap (26)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16848,7 +17031,7 @@ GameObject:
   - component: {fileID: 1059784771}
   m_Layer: 0
   m_Name: level_straight (23)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16993,7 +17176,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17025,7 +17208,7 @@ GameObject:
   - component: {fileID: 1067330974}
   m_Layer: 0
   m_Name: level_junction_2way (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17166,7 +17349,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17198,7 +17381,7 @@ GameObject:
   - component: {fileID: 1069334155}
   m_Layer: 0
   m_Name: level_endcap (24)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17333,7 +17516,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17402,7 +17585,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17477,7 +17660,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17570,7 +17753,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17602,7 +17785,7 @@ GameObject:
   - component: {fileID: 1094988734}
   m_Layer: 0
   m_Name: level_straight (50)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17710,7 +17893,7 @@ GameObject:
   - component: {fileID: 1098682512}
   m_Layer: 0
   m_Name: level_straight (16)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17850,7 +18033,7 @@ PrefabInstance:
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
       propertyPath: m_RootOrder
-      value: 142
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
@@ -17930,7 +18113,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -17962,7 +18145,7 @@ GameObject:
   - component: {fileID: 1111860588}
   m_Layer: 0
   m_Name: level_endcap (28)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18066,7 +18249,7 @@ GameObject:
   - component: {fileID: 1113715283}
   m_Layer: 0
   m_Name: level_endcap (34)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18201,7 +18384,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -18233,7 +18416,7 @@ GameObject:
   - component: {fileID: 1128389091}
   m_Layer: 0
   m_Name: level_straight (53)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18378,7 +18561,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -18447,7 +18630,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -18522,7 +18705,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -18554,7 +18737,7 @@ GameObject:
   - component: {fileID: 1152584521}
   m_Layer: 0
   m_Name: level_endcap (18)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18658,7 +18841,7 @@ GameObject:
   - component: {fileID: 1159906124}
   m_Layer: 0
   m_Name: level_straight (68)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18753,6 +18936,85 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &1161838138
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Name
+      value: ghost_yellow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380547, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438828061692380547, guid: 062b26cc59b574a60af4b979259190a2,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.98977304
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 062b26cc59b574a60af4b979259190a2, type: 3}
 --- !u!1 &1162388550
 GameObject:
   m_ObjectHideFlags: 0
@@ -18766,7 +19028,7 @@ GameObject:
   - component: {fileID: 1162388553}
   m_Layer: 0
   m_Name: level_endcap (7)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18864,7 +19126,7 @@ GameObject:
   - component: {fileID: 1162647402}
   m_Layer: 0
   m_Name: level_junction_2way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18962,7 +19224,7 @@ GameObject:
   - component: {fileID: 1162976251}
   m_Layer: 0
   m_Name: level_endcap (5)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19060,7 +19322,7 @@ GameObject:
   - component: {fileID: 1165916607}
   m_Layer: 0
   m_Name: level_straight (71)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19205,7 +19467,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -19237,7 +19499,7 @@ GameObject:
   - component: {fileID: 1186945066}
   m_Layer: 0
   m_Name: level_endcap (20)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19322,6 +19584,62 @@ CircleCollider2D:
   m_Offset: {x: -0.0000009536743, y: 0}
   serializedVersion: 2
   m_Radius: 0.5000001
+--- !u!1 &1189468598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1161838138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1189468602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189468598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3114ff65da4d1f9b191a2da931fc0f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+--- !u!50 &1189468603
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189468598}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &1189468604
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189468598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.025386572}
+  serializedVersion: 2
+  m_Radius: 0.45430398
 --- !u!1 &1198296720
 GameObject:
   m_ObjectHideFlags: 0
@@ -19335,7 +19653,7 @@ GameObject:
   - component: {fileID: 1198296723}
   m_Layer: 0
   m_Name: level_junction_2way (6)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19476,7 +19794,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 140
+      value: 138
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -19545,7 +19863,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -19577,7 +19895,7 @@ GameObject:
   - component: {fileID: 1202979285}
   m_Layer: 0
   m_Name: level_straight (94)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19685,7 +20003,7 @@ GameObject:
   - component: {fileID: 1212272651}
   m_Layer: 0
   m_Name: level_endcap (13)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19783,7 +20101,7 @@ GameObject:
   - component: {fileID: 1212292536}
   m_Layer: 0
   m_Name: level_junction_3way (4)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19928,7 +20246,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 129
+      value: 127
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -19960,7 +20278,7 @@ GameObject:
   - component: {fileID: 1218597103}
   m_Layer: 0
   m_Name: level_straight (103)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20068,7 +20386,7 @@ GameObject:
   - component: {fileID: 1231484119}
   m_Layer: 0
   m_Name: level_straight (78)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20213,7 +20531,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -20245,7 +20563,7 @@ GameObject:
   - component: {fileID: 1234600482}
   m_Layer: 0
   m_Name: level_junction_2way (6)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20343,7 +20661,7 @@ GameObject:
   - component: {fileID: 1235402383}
   m_Layer: 0
   m_Name: level_straight (93)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20463,7 +20781,7 @@ GameObject:
   - component: {fileID: 1258500205}
   m_Layer: 0
   m_Name: level_straight (72)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20571,7 +20889,7 @@ GameObject:
   - component: {fileID: 1258827358}
   m_Layer: 0
   m_Name: level_straight (96)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20679,7 +20997,7 @@ GameObject:
   - component: {fileID: 1262518730}
   m_Layer: 0
   m_Name: level_straight (100)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20824,7 +21142,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -20893,7 +21211,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -20925,7 +21243,7 @@ GameObject:
   - component: {fileID: 1276389732}
   m_Layer: 0
   m_Name: level_junction_2way (8)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21023,7 +21341,7 @@ GameObject:
   - component: {fileID: 1279919138}
   m_Layer: 0
   m_Name: level_straight (18)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21168,7 +21486,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -21200,7 +21518,7 @@ GameObject:
   - component: {fileID: 1296643184}
   m_Layer: 0
   m_Name: level_junction_3way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21308,7 +21626,7 @@ GameObject:
   - component: {fileID: 1297770227}
   m_Layer: 0
   m_Name: level_junction_2way (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21418,7 +21736,7 @@ GameObject:
   - component: {fileID: 1327314746}
   m_Layer: 0
   m_Name: level_endcap (4)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21565,7 +21883,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -21634,7 +21952,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 132
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -21709,7 +22027,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 128
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -21778,7 +22096,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -21810,7 +22128,7 @@ GameObject:
   - component: {fileID: 1373970332}
   m_Layer: 0
   m_Name: level_endcap
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21945,7 +22263,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -22014,7 +22332,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -22046,7 +22364,7 @@ GameObject:
   - component: {fileID: 1384647445}
   m_Layer: 0
   m_Name: level_endcap (41)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22144,7 +22462,7 @@ GameObject:
   - component: {fileID: 1385099252}
   m_Layer: 0
   m_Name: level_straight (113)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22358,7 +22676,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 115
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -22390,7 +22708,7 @@ GameObject:
   - component: {fileID: 1396646389}
   m_Layer: 0
   m_Name: level_straight (86)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22535,7 +22853,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -22636,7 +22954,7 @@ GameObject:
   - component: {fileID: 1403067675}
   m_Layer: 0
   m_Name: level_straight (38)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22744,7 +23062,7 @@ GameObject:
   - component: {fileID: 1404768160}
   m_Layer: 0
   m_Name: level_junction_2way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22842,7 +23160,7 @@ GameObject:
   - component: {fileID: 1405916808}
   m_Layer: 0
   m_Name: level_junction_2way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22940,7 +23258,7 @@ GameObject:
   - component: {fileID: 1406185393}
   m_Layer: 0
   m_Name: level_straight (84)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23048,7 +23366,7 @@ GameObject:
   - component: {fileID: 1406383832}
   m_Layer: 0
   m_Name: level_straight (51)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23193,7 +23511,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -23314,7 +23632,7 @@ GameObject:
   - component: {fileID: 1412568367}
   m_Layer: 0
   m_Name: level_junction_3way
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23428,7 +23746,7 @@ GameObject:
   - component: {fileID: 1422730447}
   m_Layer: 0
   m_Name: level_straight (91)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23542,7 +23860,7 @@ GameObject:
   - component: {fileID: 1426831068}
   m_Layer: 0
   m_Name: level_junction_2way (7)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23640,7 +23958,7 @@ GameObject:
   - component: {fileID: 1433797719}
   m_Layer: 0
   m_Name: level_junction_2way (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23738,7 +24056,7 @@ GameObject:
   - component: {fileID: 1434984117}
   m_Layer: 0
   m_Name: level_endcap (10)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23873,7 +24191,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -23911,7 +24229,7 @@ GameObject:
   - component: {fileID: 1441571117}
   m_Layer: 0
   m_Name: level_straight (14)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24025,7 +24343,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  direction: {x: 0, y: 1}
 --- !u!58 &1481247098
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24082,7 +24399,7 @@ GameObject:
   - component: {fileID: 1485032441}
   m_Layer: 0
   m_Name: level_straight (64)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24195,6 +24512,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1644257456}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1501614884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 531766370}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1501614888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501614884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3114ff65da4d1f9b191a2da931fc0f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+--- !u!50 &1501614889
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501614884}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!58 &1501614890
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501614884}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.00000023841858}
+  serializedVersion: 2
+  m_Radius: 0.45938134
 --- !u!1 &1514148898
 GameObject:
   m_ObjectHideFlags: 0
@@ -24208,7 +24581,7 @@ GameObject:
   - component: {fileID: 1514148901}
   m_Layer: 0
   m_Name: level_endcap (42)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24355,7 +24728,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -24424,7 +24797,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -24499,7 +24872,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 135
+      value: 133
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -24568,7 +24941,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -24624,7 +24997,7 @@ GameObject:
   - component: {fileID: 1587914351}
   m_Layer: 0
   m_Name: level_endcap (17)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24759,7 +25132,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 143
+      value: 142
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -24803,7 +25176,7 @@ GameObject:
   - component: {fileID: 1592018017}
   m_Layer: 0
   m_Name: level_junction_2way (5)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24901,7 +25274,7 @@ GameObject:
   - component: {fileID: 1597567689}
   m_Layer: 0
   m_Name: level_endcap (31)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25023,7 +25396,7 @@ GameObject:
   - component: {fileID: 1608802337}
   m_Layer: 0
   m_Name: level_endcap (9)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25164,7 +25537,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -25196,7 +25569,7 @@ GameObject:
   - component: {fileID: 1633684176}
   m_Layer: 0
   m_Name: level_endcap (16)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25281,6 +25654,62 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!1 &1641075240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
+    type: 3}
+  m_PrefabInstance: {fileID: 69535138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641075244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641075240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3114ff65da4d1f9b191a2da931fc0f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+--- !u!58 &1641075245
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641075240}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.010154486}
+  serializedVersion: 2
+  m_Radius: 0.46953607
+--- !u!50 &1641075246
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641075240}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &1641427553
 GameObject:
   m_ObjectHideFlags: 0
@@ -25294,7 +25723,7 @@ GameObject:
   - component: {fileID: 1641427556}
   m_Layer: 0
   m_Name: level_straight (54)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25402,7 +25831,7 @@ GameObject:
   - component: {fileID: 1643628961}
   m_Layer: 0
   m_Name: level_straight (109)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25547,7 +25976,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -25585,7 +26014,7 @@ GameObject:
   - component: {fileID: 1647031971}
   m_Layer: 0
   m_Name: level_straight (47)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25693,7 +26122,7 @@ GameObject:
   - component: {fileID: 1654382636}
   m_Layer: 0
   m_Name: level_endcap (15)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25791,7 +26220,7 @@ GameObject:
   - component: {fileID: 1658457330}
   m_Layer: 0
   m_Name: level_endcap (3)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25889,7 +26318,7 @@ GameObject:
   - component: {fileID: 1667554782}
   m_Layer: 0
   m_Name: level_junction_3way (5)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25997,7 +26426,7 @@ GameObject:
   - component: {fileID: 1667971591}
   m_Layer: 0
   m_Name: level_junction_2way (4)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26095,7 +26524,7 @@ GameObject:
   - component: {fileID: 1669421601}
   m_Layer: 0
   m_Name: level_straight
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26203,7 +26632,7 @@ GameObject:
   - component: {fileID: 1670099528}
   m_Layer: 0
   m_Name: level_straight (65)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26311,7 +26740,7 @@ GameObject:
   - component: {fileID: 1674421582}
   m_Layer: 0
   m_Name: level_straight (92)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26456,7 +26885,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 136
+      value: 134
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -26531,7 +26960,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -26563,7 +26992,7 @@ GameObject:
   - component: {fileID: 1692378838}
   m_Layer: 0
   m_Name: level_straight (112)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26740,7 +27169,7 @@ GameObject:
   - component: {fileID: 1727602566}
   m_Layer: 0
   m_Name: level_endcap (30)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26838,7 +27267,7 @@ GameObject:
   - component: {fileID: 1734807977}
   m_Layer: 0
   m_Name: level_straight (44)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26946,7 +27375,7 @@ GameObject:
   - component: {fileID: 1743915793}
   m_Layer: 0
   m_Name: level_junction_2way (11)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27044,7 +27473,7 @@ GameObject:
   - component: {fileID: 1749846402}
   m_Layer: 0
   m_Name: level_straight (88)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27189,7 +27618,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -27221,7 +27650,7 @@ GameObject:
   - component: {fileID: 1755179785}
   m_Layer: 0
   m_Name: level_endcap (36)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27319,7 +27748,7 @@ GameObject:
   - component: {fileID: 1755692919}
   m_Layer: 0
   m_Name: level_straight (77)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27433,7 +27862,7 @@ GameObject:
   - component: {fileID: 1770260034}
   m_Layer: 0
   m_Name: level_endcap (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27537,7 +27966,7 @@ GameObject:
   - component: {fileID: 1775890124}
   m_Layer: 0
   m_Name: level_straight (99)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27682,7 +28111,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -27751,7 +28180,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -27820,7 +28249,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -27895,7 +28324,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 130
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -27927,7 +28356,7 @@ GameObject:
   - component: {fileID: 1807677127}
   m_Layer: 0
   m_Name: level_straight (13)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28035,7 +28464,7 @@ GameObject:
   - component: {fileID: 1811499313}
   m_Layer: 0
   m_Name: level_endcap (6)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28133,7 +28562,7 @@ GameObject:
   - component: {fileID: 1835188342}
   m_Layer: 0
   m_Name: level_endcap (27)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28231,7 +28660,7 @@ GameObject:
   - component: {fileID: 1835785771}
   m_Layer: 0
   m_Name: level_straight (66)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28345,7 +28774,7 @@ GameObject:
   - component: {fileID: 1839605075}
   m_Layer: 0
   m_Name: level_straight (48)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28496,7 +28925,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -28534,7 +28963,7 @@ GameObject:
   - component: {fileID: 1851873625}
   m_Layer: 0
   m_Name: level_junction_3way (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28648,7 +29077,7 @@ GameObject:
   - component: {fileID: 1869056196}
   m_Layer: 0
   m_Name: level_straight (59)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28756,7 +29185,7 @@ GameObject:
   - component: {fileID: 1875154527}
   m_Layer: 0
   m_Name: level_straight (17)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28945,7 +29374,7 @@ GameObject:
   - component: {fileID: 1892111420}
   m_Layer: 0
   m_Name: level_straight (30)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29090,7 +29519,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 139
+      value: 137
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -29159,7 +29588,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -29191,7 +29620,7 @@ GameObject:
   - component: {fileID: 1899349444}
   m_Layer: 0
   m_Name: level_straight (106)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29305,7 +29734,7 @@ GameObject:
   - component: {fileID: 1901411052}
   m_Layer: 0
   m_Name: level_straight (24)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29462,7 +29891,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -29494,7 +29923,7 @@ GameObject:
   - component: {fileID: 1913859351}
   m_Layer: 0
   m_Name: level_straight (85)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29639,7 +30068,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 124
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -29683,7 +30112,7 @@ GameObject:
   - component: {fileID: 1930458832}
   m_Layer: 0
   m_Name: level_straight (67)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29791,7 +30220,7 @@ GameObject:
   - component: {fileID: 1941347377}
   m_Layer: 0
   m_Name: level_straight (15)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29899,7 +30328,7 @@ GameObject:
   - component: {fileID: 1945770501}
   m_Layer: 0
   m_Name: level_straight (35)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30007,7 +30436,7 @@ GameObject:
   - component: {fileID: 1948031587}
   m_Layer: 0
   m_Name: level_straight (63)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30152,7 +30581,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -30184,7 +30613,7 @@ GameObject:
   - component: {fileID: 1951097417}
   m_Layer: 0
   m_Name: level_straight (81)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30292,7 +30721,7 @@ GameObject:
   - component: {fileID: 1953098231}
   m_Layer: 0
   m_Name: level_straight (116)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30400,7 +30829,7 @@ GameObject:
   - component: {fileID: 1958278416}
   m_Layer: 0
   m_Name: level_straight (82)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30545,7 +30974,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -30601,7 +31030,7 @@ GameObject:
   - component: {fileID: 1991164297}
   m_Layer: 0
   m_Name: level_junction_2way (10)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30699,7 +31128,7 @@ GameObject:
   - component: {fileID: 1994702337}
   m_Layer: 0
   m_Name: level_endcap (4)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30797,7 +31226,7 @@ GameObject:
   - component: {fileID: 2002453876}
   m_Layer: 0
   m_Name: level_straight (7)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30911,7 +31340,7 @@ GameObject:
   - component: {fileID: 2016553398}
   m_Layer: 0
   m_Name: level_straight (87)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31019,7 +31448,7 @@ GameObject:
   - component: {fileID: 2021429043}
   m_Layer: 0
   m_Name: level_straight (111)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31127,7 +31556,7 @@ GameObject:
   - component: {fileID: 2028873496}
   m_Layer: 0
   m_Name: level_endcap (13)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31249,7 +31678,7 @@ GameObject:
   - component: {fileID: 2039255440}
   m_Layer: 0
   m_Name: level_endcap (29)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31384,7 +31813,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -31416,7 +31845,7 @@ GameObject:
   - component: {fileID: 2044496702}
   m_Layer: 0
   m_Name: level_straight (110)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31532,7 +31961,7 @@ GameObject:
   - component: {fileID: 2049784237}
   - component: {fileID: 2049784238}
   m_Layer: 0
-  m_Name: pacman
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31637,7 +32066,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2049784237
 Animator:
@@ -31730,7 +32159,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 122
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -31805,7 +32234,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 137
+      value: 135
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -31880,7 +32309,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -31912,7 +32341,7 @@ GameObject:
   - component: {fileID: 2080222319}
   m_Layer: 0
   m_Name: level_junction_3way (2)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32057,7 +32486,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -32164,7 +32593,7 @@ GameObject:
   - component: {fileID: 2093000437}
   m_Layer: 0
   m_Name: level_straight
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32315,7 +32744,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -32353,7 +32782,7 @@ GameObject:
   - component: {fileID: 2112504067}
   m_Layer: 0
   m_Name: level_endcap (12)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32451,7 +32880,7 @@ GameObject:
   - component: {fileID: 2115204294}
   m_Layer: 0
   m_Name: level_straight (57)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32628,7 +33057,7 @@ GameObject:
   - component: {fileID: 2117267136}
   m_Layer: 0
   m_Name: level_straight (45)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32736,7 +33165,7 @@ GameObject:
   - component: {fileID: 2117745168}
   m_Layer: 0
   m_Name: level_endcap (1)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32903,7 +33332,7 @@ GameObject:
   - component: {fileID: 2127035819}
   m_Layer: 0
   m_Name: level_straight (108)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33048,7 +33477,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -33117,7 +33546,7 @@ PrefabInstance:
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 8827546872803894102, guid: 6510acad2ed938ff1ac5c32facad2a43,
         type: 3}
@@ -33149,7 +33578,7 @@ GameObject:
   - component: {fileID: 2140642622}
   m_Layer: 0
   m_Name: level_straight (5)
-  m_TagString: Untagged
+  m_TagString: Level
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33254,7 +33683,7 @@ PrefabInstance:
     - target: {fileID: 3438828061692380545, guid: 062b26cc59b574a60af4b979259190a2,
         type: 3}
       propertyPath: m_Name
-      value: ghost
+      value: ghost_red
       objectReference: {fileID: 0}
     - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
         type: 3}
@@ -33294,7 +33723,7 @@ PrefabInstance:
     - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3438828061692380546, guid: 062b26cc59b574a60af4b979259190a2,
         type: 3}
@@ -33358,7 +33787,7 @@ PrefabInstance:
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 2710330454525818536, guid: 7853f29534cc523f6a93c3602059a286,
         type: 3}
