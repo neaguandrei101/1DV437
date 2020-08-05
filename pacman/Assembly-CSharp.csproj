@@ -39,6 +39,7 @@
      <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\Scripts\GhostController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\TeleportPadChecker.cs" />
      <Compile Include="Assets\Scripts\Utility.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/andrei/Unity/Hub/Editor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
