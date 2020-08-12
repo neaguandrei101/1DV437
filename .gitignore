@@ -5,3 +5,11 @@ pacman/Library/
 pacman/Temp/
 
 tutorial assests/PacMan
+
+pacman/Assembly-CSharp.csproj
+
+pacman/Assets/Scripts/PlayerController.cs
+
+pacman/Packages/manifest.json
+
+pacman/pacman.sln
