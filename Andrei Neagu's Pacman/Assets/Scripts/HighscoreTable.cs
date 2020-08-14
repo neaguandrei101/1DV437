@@ -22,19 +22,18 @@ public class HighscoreTable : MonoBehaviour {
         if (highscores == null) {
             // There's no stored table, initialize
             Debug.Log("Initializing table with default values...");
-            AddHighscoreEntry(1000, "00:00:01");
-            AddHighscoreEntry(2000, "00:00:45");
+            AddHighscoreEntry(1000, "00:01");
+            AddHighscoreEntry(2000, "00:45");
            
             // Reload
             jsonString = PlayerPrefs.GetString("highscoreTable");
             highscores = JsonUtility.FromJson<Highscores>(jsonString);
         } else {
-            PlayerPrefs.DeleteKey("highscoreTable");
-            AddHighscoreEntry(1, "111");
-            AddHighscoreEntry(2, "222");
-            AddHighscoreEntry(3, "333");
+            PlayerPrefs.DeleteAll();
+            AddHighscoreEntry(1, "00:00");
+            AddHighscoreEntry(2, "11:11");
+            AddHighscoreEntry(3, "33:33");
         }
-        Debug.Log("Sorting...");
         highscores.highscoreEntryList.Sort((x,y) => y.score.CompareTo(x.score));
 
         highscoreEntryTransformList = new List<Transform>();
@@ -83,7 +82,7 @@ public class HighscoreTable : MonoBehaviour {
         transformList.Add(entryTransform);
     }
 
-    private void AddHighscoreEntry(int score, string time) {
+    public static void AddHighscoreEntry(int score, string time) {
         // Create HighscoreEntry
         HighscoreEntry highscoreEntry = new HighscoreEntry { score = score, time = time };
         
@@ -100,6 +99,9 @@ public class HighscoreTable : MonoBehaviour {
 
         // Add new entry to Highscores
         highscores.highscoreEntryList.Add(highscoreEntry);
+
+        if(highscores.highscoreEntryList.Count > 3)
+            PlayerPrefs.DeleteAll();
 
         // Save updated Highscores
         string json = JsonUtility.ToJson(highscores);

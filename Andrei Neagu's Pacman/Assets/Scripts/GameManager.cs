@@ -2,16 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class GameManager : MonoBehaviour {
 
-    public enum GameState
-    {
-        PLAY, PACMAN_DYING, PACMAN_DEAD, GAME_OVER, GAME_WON
+    public enum GameState {
+        PLAY, 
+        PACMAN_DYING,
+        PACMAN_DEAD,
+        GAME_OVER,
+        GAME_WON
     };
+    
     public GameState gameState = GameState.PLAY;
     [Range(1,10)]
-    public float ghostVulnerableDuration = 7.0f;//how long the ghosts should be vulnerable for
+    public float ghostVulnerableDuration = 7.0f;
     [Range(1,5)]
     public float ghostVulnerableEndWarningDuration = 2.0f;
     
@@ -29,80 +34,72 @@ public class GameManager : MonoBehaviour {
 
     private static GameManager instance;
     private float respawnTime;
-    private float invulnerableTime = 0;//when the ghosts will become invulnerable again
+    private float invulnerableTime = 0;
+    private bool scoreSetBefore = false;
+    private float startTime;
 
 	// Use this for initialization
 	void Start () {
-		if (instance == null)
-        {
+        startTime = Time.time;
+        Debug.Log(startTime);
+		if (instance == null) {
             instance = this;
-        }
-        else
-        {
+        } else {
             Destroy(gameObject);
         }
         gameOverScreen.enabled = false;
         gameWonScreen.enabled = false;
     }
 	
-	// Update is called once per frame
-	void Update () {
-		switch (gameState)
-        {
+    	void Update () {
+		switch (gameState) {
             case GameState.PLAY:
                 bool foundPill = false;
-                foreach (GameObject pill in pills)
-                {
-                    if (pill.activeSelf)
-                    {
+                foreach (GameObject pill in pills) {
+                    if (pill.activeSelf) {
                         foundPill = true;
                         break;
                     }
                 }
-                if (!foundPill)
-                {
+                if (!foundPill) {
                     gameState = GameState.GAME_WON;
                 }
                 break;
             case GameState.PACMAN_DYING:
-                if (Time.time > respawnTime)
-                {
+                if (Time.time > respawnTime) {
                     gameState = GameState.PACMAN_DEAD;
                     respawnTime = Time.time + 1;
                     pacman.SetActive(false);
                 }
                 break;
             case GameState.PACMAN_DEAD:
-                if (Time.time > respawnTime)
-                {
+                if (Time.time > respawnTime) {
                     gameState = GameState.PLAY;
                     pacman.SetActive(true);
                     PlayerController playerController = pacman.GetComponent<PlayerController>();
                     playerController.setLivesLeft(playerController.livesLeft - 1);
-                    if (playerController.livesLeft >= 0)
-                    {
+                    if (playerController.livesLeft >= 0) {
                         playerController.setAlive(true);
-                    }
-                    else
-                    {
+                    } else {
                         gameState = GameState.GAME_OVER;
                     }
                     pacman.transform.position = Vector2.zero;
-                    foreach (GameObject ghost in ghosts)
-                    {
+                    foreach (GameObject ghost in ghosts) {
                         ghost.GetComponent<GhostController>().reset();
                     }
                 }
                 break;
             case GameState.GAME_OVER:
+                if(scoreSetBefore == false) {
+                addScore();
+                scoreSetBefore = true;
+                }
                 gameOverScreen.enabled = true;
                 gameWonScreen.enabled = false;
-                if (!gameOverSound.isPlaying)
-                {
+                if (!gameOverSound.isPlaying) {
                     gameOverSound.Play();
                 }
-                if (Input.anyKeyDown)
-                {
+                if (Input.anyKeyDown) {
                     resetGame();
                     gameState = GameState.PLAY;
                     gameOverScreen.enabled = false;
@@ -110,14 +107,15 @@ public class GameManager : MonoBehaviour {
                 }
                 break;
             case GameState.GAME_WON:
-                gameOverScreen.enabled = false;
+                if(scoreSetBefore == false) {
+                addScore();
+                scoreSetBefore = true;
+                }                gameOverScreen.enabled = false;
                 gameWonScreen.enabled = true;
-                if (!gameWonSound.isPlaying)
-                {
+                if (!gameWonSound.isPlaying) {
                     gameWonSound.Play();
                 }
-                if (Input.anyKeyDown)
-                {
+                if (Input.anyKeyDown) {
                     resetGame();
                     gameState = GameState.PLAY;
                     gameOverScreen.enabled = false;
@@ -126,65 +124,59 @@ public class GameManager : MonoBehaviour {
                 break;
         }
         //Ghost Vulnerability
-        if (invulnerableTime > 0)
-        {
-            if (Time.time > invulnerableTime)
-            {
+        if (invulnerableTime > 0) {
+            if (Time.time > invulnerableTime) {
                 invulnerableTime = 0;
-                foreach (GameObject ghost in ghosts)
-                {
+                foreach (GameObject ghost in ghosts) {
                     ghost.GetComponent<GhostController>().setVulnerable(false);
                 }
             }
             else if (Time.time > invulnerableTime - ghostVulnerableEndWarningDuration
-                && (Time.time *10)%2 < 0.1f)
-            {
-                foreach (GameObject ghost in ghosts)
-                {
+                && (Time.time *10)%2 < 0.1f) {
+                foreach (GameObject ghost in ghosts) {
                     ghost.GetComponent<GhostController>().blink();
                 }
             }
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
             Application.Quit();
         }
 	}
 
-    public static void pacmanKilled()
-    {
+    public static void pacmanKilled() {
         instance.pacman.GetComponent<PlayerController>().setAlive(false);
         instance.gameState = GameState.PACMAN_DYING;
         instance.respawnTime = Time.time + instance.pacmanDeathAnimation.length;
         instance.pacmanKilledSound.Play();
-        foreach (GameObject ghost in instance.ghosts)
-        {
+        foreach (GameObject ghost in instance.ghosts) {
             ghost.GetComponent<GhostController>().freeze(true);
         }
     }
 
-    public void resetGame()
-    {
+    public void resetGame() {
         pacman.transform.position = Vector2.zero;
         PlayerController playerController = pacman.GetComponent<PlayerController>();
         playerController.setLivesLeft(2);
         playerController.setAlive(true);
-        foreach (GameObject ghost in ghosts)
-        {
+        foreach (GameObject ghost in ghosts) {
             ghost.GetComponent<GhostController>().reset();
         }
-        foreach (GameObject pill in pills)
-        {
+        foreach (GameObject pill in pills) {
             pill.SetActive(true);
         }
     }
 
-    public static void makeGhostsVulnerable()
-    {
+    public static void makeGhostsVulnerable() {
         instance.invulnerableTime = Time.time + instance.ghostVulnerableDuration;
-        foreach (GameObject ghost in instance.ghosts)
-        {
+        foreach (GameObject ghost in instance.ghosts) {
             ghost.GetComponent<GhostController>().setVulnerable(true);
         }
+    }
+
+    private void addScore () {
+        var ts = TimeSpan.FromSeconds(Time.time - startTime);
+                string timeCompletion = string.Format("{0:00}:{1:00}", ts.TotalMinutes, ts.Seconds);
+                HighscoreTable.AddHighscoreEntry(
+                    instance.pacman.GetComponent<PlayerController>().score, timeCompletion);
     }
 }
