@@ -7,9 +7,15 @@ using UnityEngine.Audio;
 public class SceneLoader : MonoBehaviour {
 
 public AudioMixer audioMixer;
+public AudioSource pacmanTheme;
+
+    public void Awake() {
+        pacmanTheme.Play();
+    }
 
     public void LoadGame() {
         SceneManager.LoadScene("game_scene");
+        p
     }
 
     public void SetVolume(float volume) {
@@ -18,6 +24,5 @@ public AudioMixer audioMixer;
 
     public void QuitGame() {
         Application.Quit();
-        Debug.Log("Quit");
     }
 }
