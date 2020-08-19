@@ -110,7 +110,8 @@ public class GameManager : MonoBehaviour {
                 if(scoreSetBefore == false) {
                 addScore();
                 scoreSetBefore = true;
-                }                gameOverScreen.enabled = false;
+                }
+                gameOverScreen.enabled = false;
                 gameWonScreen.enabled = true;
                 if (!gameWonSound.isPlaying) {
                     gameWonSound.Play();
