@@ -33,6 +33,7 @@ public class HighscoreTable : MonoBehaviour {
                 PlayerPrefs.DeleteAll();
             } 
         }
+        // Sort the highscores with time completion
         highscores.highscoreEntryList.Sort((x,y) => y.time.CompareTo(x.time));
 
         highscoreEntryTransformList = new List<Transform>();
