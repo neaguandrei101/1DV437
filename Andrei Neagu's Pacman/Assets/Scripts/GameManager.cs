@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour {
     private float invulnerableTime = 0;
     private bool scoreSetBefore = false;
     private float startTime;
+    private static AudioSource pillAudioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -49,6 +50,7 @@ public class GameManager : MonoBehaviour {
         }
         gameOverScreen.enabled = false;
         gameWonScreen.enabled = false;
+        pillAudioSource = GetComponents<AudioSource>()[3];
     }
 	
     	void Update () {
@@ -172,6 +174,11 @@ public class GameManager : MonoBehaviour {
         foreach (GameObject ghost in instance.ghosts) {
             ghost.GetComponent<GhostController>().setVulnerable(true);
         }
+    }
+
+    public static void playPillSound(AudioClip clip) {
+        pillAudioSource.clip = clip;
+        pillAudioSource.Play();
     }
 
     private void addScore () {
