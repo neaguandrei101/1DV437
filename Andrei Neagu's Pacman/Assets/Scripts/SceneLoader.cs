@@ -15,11 +15,11 @@ public AudioSource pacmanTheme;
 
     public void LoadGame() {
         SceneManager.LoadScene("game_scene");
-        p
     }
 
     public void SetVolume(float volume) {
         audioMixer.SetFloat("MyExposedParam", volume);
+        PlayerPrefs.SetFloat("volume", volume);
     }
 
     public void QuitGame() {
