@@ -1,16 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
-public class HighscoreTable : MonoBehaviour {
+public class HighscoreTable : MonoBehaviour
+{
 
     private Transform entryContainer;
     private Transform entryTemplate;
     private List<Transform> highscoreEntryTransformList;
 
-    private void Awake() {
+    private void Awake()
+    {
         entryContainer = transform.Find("highscoreEntryContainer");
         entryTemplate = entryContainer.Find("highscoreEntryTemplate");
 
@@ -19,30 +19,36 @@ public class HighscoreTable : MonoBehaviour {
         string jsonString = PlayerPrefs.GetString("highscoreTable");
         Highscores highscores = JsonUtility.FromJson<Highscores>(jsonString);
 
-        if (highscores == null) {
+        if (highscores == null)
+        {
             // There's no stored table, initialize
             Debug.Log("Initializing table with default values...");
             AddHighscoreEntry(1000, "00:01");
             AddHighscoreEntry(2000, "01:00");
-           
+
             // Reload
             jsonString = PlayerPrefs.GetString("highscoreTable");
             highscores = JsonUtility.FromJson<Highscores>(jsonString);
-        } else {
-            if(highscores.highscoreEntryList.Count > 10) {
+        }
+        else
+        {
+            if (highscores.highscoreEntryList.Count > 5)
+            {
                 PlayerPrefs.DeleteAll();
-            } 
+            }
         }
         // Sort the highscores with time completion
-        highscores.highscoreEntryList.Sort((x,y) => y.time.CompareTo(x.time));
+        highscores.highscoreEntryList.Sort((x, y) => y.time.CompareTo(x.time));
 
         highscoreEntryTransformList = new List<Transform>();
-        foreach (HighscoreEntry highscoreEntry in highscores.highscoreEntryList) {
+        foreach (HighscoreEntry highscoreEntry in highscores.highscoreEntryList)
+        {
             CreateHighscoreEntryTransform(highscoreEntry, entryContainer, highscoreEntryTransformList);
         }
     }
 
-    private void CreateHighscoreEntryTransform(HighscoreEntry highscoreEntry, Transform container, List<Transform> transformList) {
+    private void CreateHighscoreEntryTransform(HighscoreEntry highscoreEntry, Transform container, List<Transform> transformList)
+    {
         float templateHeight = 31f;
         Transform entryTransform = Instantiate(entryTemplate, container);
         RectTransform entryRectTransform = entryTransform.GetComponent<RectTransform>();
@@ -51,13 +57,14 @@ public class HighscoreTable : MonoBehaviour {
 
         int rank = transformList.Count + 1;
         string rankString;
-        switch (rank) {
-        default:
-            rankString = rank + "TH"; break;
+        switch (rank)
+        {
+            default:
+                rankString = rank + "TH"; break;
 
-        case 1: rankString = "1ST"; break;
-        case 2: rankString = "2ND"; break;
-        case 3: rankString = "3RD"; break;
+            case 1: rankString = "1ST"; break;
+            case 2: rankString = "2ND"; break;
+            case 3: rankString = "3RD"; break;
         }
 
         entryTransform.Find("posText").GetComponent<Text>().text = rankString;
@@ -71,9 +78,10 @@ public class HighscoreTable : MonoBehaviour {
 
         // Set background visible odds and evens, easier to read
         entryTransform.Find("background").gameObject.SetActive(rank % 2 == 1);
-        
+
         // Highlight First
-        if (rank == 1) {
+        if (rank == 1)
+        {
             entryTransform.Find("posText").GetComponent<Text>().color = Color.green;
             entryTransform.Find("scoreText").GetComponent<Text>().color = Color.green;
             entryTransform.Find("timeText").GetComponent<Text>().color = Color.green;
@@ -82,17 +90,20 @@ public class HighscoreTable : MonoBehaviour {
         transformList.Add(entryTransform);
     }
 
-    public static void AddHighscoreEntry(int score, string time) {
+    public static void AddHighscoreEntry(int score, string time)
+    {
         // Create HighscoreEntry
         HighscoreEntry highscoreEntry = new HighscoreEntry { score = score, time = time };
-        
+
         // Load saved Highscores
         string jsonString = PlayerPrefs.GetString("highscoreTable");
         Highscores highscores = JsonUtility.FromJson<Highscores>(jsonString);
 
-        if (highscores == null) {
+        if (highscores == null)
+        {
             // There's no stored table, initialize
-            highscores = new Highscores() {
+            highscores = new Highscores()
+            {
                 highscoreEntryList = new List<HighscoreEntry>()
             };
         }
@@ -106,12 +117,14 @@ public class HighscoreTable : MonoBehaviour {
         PlayerPrefs.Save();
     }
 
-    private class Highscores {
+    private class Highscores
+    {
         public List<HighscoreEntry> highscoreEntryList;
     }
 
-    [System.Serializable] 
-    private class HighscoreEntry {
+    [System.Serializable]
+    private class HighscoreEntry
+    {
         public int score;
         public string time;
 
